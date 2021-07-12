@@ -6,25 +6,39 @@ namespace CodingPrework
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
 
-            int[] array = new int[] { 1, 2, 3, 4, 5 };
-
-            arrayMaxResult(array);
-
+            arrayMaxResult();
 
             
-                   // I am having strange errors and I do not know what to do
 
         }
 
-        public static int[] arrayMaxResult(int[] array)
-        {
+        public static void arrayMaxResult() { 
+
+            for (int i = 0; i<5; i++)
+            {
+                Console.WriteLine("Please enter a number 1-10");
+                string userChoice = Console.ReadLine();
+
+                int[] userNum = new int[5];
+
+                userNum = Convert.ToInt32(userChoice);
+               
+
+            }
 
 
-            int theArray[] = array;  
 
-            return ;
+
+
+
+
+            {
+
+
+         
+
+            
         }
     }
 }
